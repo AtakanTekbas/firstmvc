@@ -1,0 +1,13 @@
+﻿#blogtable, td, th,tr {
+    border-style:solid;
+    border-width:2px;
+    border-color:bisque;
+}
+
+th {
+    background-color: bisque;
+    border-color:white;
+    border-width:2px;
+    color: #a9514d;
+}
+

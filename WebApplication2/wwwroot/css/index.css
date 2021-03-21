@@ -1,0 +1,9 @@
+﻿.mainlink a, .mainlink a:hover {
+    text-decoration: none;
+    color: #a9514d;
+    font-size: 50px;
+}
+
+.mainlink h1 {
+    color: #f3be98
+}

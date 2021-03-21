@@ -1,0 +1,44 @@
+﻿@model WebApplication2.Models.BlogDetailsViewModel
+
+@{
+    ViewData["Title"] = "Blogs";
+
+}
+<head>
+    <link rel="stylesheet" href="~/css/blog.css" />
+</head>
+<body>
+    <div class="blogtable">
+        <table id="blogtable">
+            <th>Author name</th>
+            <th> Blog name</th>
+            <th> Category</th>
+            @foreach (var blog in Model.Blogs)
+            {
+                <tr>
+                    <td>@blog.AuthorName</td>
+                    <td>@blog.BlogName</td>
+                    <td>@blog.BlogCategory</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div class="blogtable">
+        <table id="blogtable">
+            <th>Author name</th>
+            <th> Blog name</th>
+            <th> Category</th>
+            @foreach (var reader in Model.Readers)
+            {
+                <tr>
+                    <td>@reader.ReaderName</td>
+                    <td>@reader.CheckinTime</td>
+                    <td>@reader.FavouriteCategory</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+</body>

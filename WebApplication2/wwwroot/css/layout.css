@@ -1,0 +1,34 @@
+﻿
+.layoutnavbar {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display:block;
+    background-color:bisque;
+}
+
+.layoutnavbarli {
+    display: inline-block;
+    width: 120px;
+    height:40px;
+    background-color: white;
+}
+
+      .layoutnavbar a {
+            text-decoration:none;
+            text-align:center;
+            padding-top:5px;
+            display:inline-block;
+            color:bisque;
+            height:100%;
+            width:100%
+       }
+
+        .layoutnavbar a:hover {
+            background-color: #a9514d;
+            color: white;
+        }
+
+ul {
+margin-bottom:0px;
+}
